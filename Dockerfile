@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine:3.3
+FROM gliderlabs/alpine
 MAINTAINER Adam K Dean <adamkdean@googlemail.com>
 
 RUN apk update && apk upgrade && \
